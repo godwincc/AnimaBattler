@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D67B8527-4AC2-4C74-8987-70C0598119EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimaBattler.Core", "src\AnimaBattler.Core\AnimaBattler.Core.csproj", "{0045E572-D6C0-4458-A566-91E90D04FDEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimaBattler.Console", "src\AnimaBattler.Console\AnimaBattler.Console.csproj", "{6804D000-7621-42F8-B6D6-4304BDF70289}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimaBattler.Data", "src\AnimaBattler.Data\AnimaBattler.Data.csproj", "{13786BEA-17BF-4555-A3E2-FAB0A55F3C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimaBattler.Seeder", "src\AnimaBattler.Seeder\AnimaBattler.Seeder.csproj", "{8A7875CE-E8AB-4D94-86C6-4BD9A98557B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimaBattler.Tests", "src\AnimaBattler.Tests\AnimaBattler.Tests.csproj", "{A9038415-5B67-4060-A65D-3D721C169ABB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0045E572-D6C0-4458-A566-91E90D04FDEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0045E572-D6C0-4458-A566-91E90D04FDEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0045E572-D6C0-4458-A566-91E90D04FDEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0045E572-D6C0-4458-A566-91E90D04FDEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6804D000-7621-42F8-B6D6-4304BDF70289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6804D000-7621-42F8-B6D6-4304BDF70289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6804D000-7621-42F8-B6D6-4304BDF70289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6804D000-7621-42F8-B6D6-4304BDF70289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13786BEA-17BF-4555-A3E2-FAB0A55F3C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13786BEA-17BF-4555-A3E2-FAB0A55F3C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13786BEA-17BF-4555-A3E2-FAB0A55F3C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13786BEA-17BF-4555-A3E2-FAB0A55F3C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A7875CE-E8AB-4D94-86C6-4BD9A98557B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A7875CE-E8AB-4D94-86C6-4BD9A98557B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A7875CE-E8AB-4D94-86C6-4BD9A98557B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A7875CE-E8AB-4D94-86C6-4BD9A98557B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9038415-5B67-4060-A65D-3D721C169ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9038415-5B67-4060-A65D-3D721C169ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9038415-5B67-4060-A65D-3D721C169ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9038415-5B67-4060-A65D-3D721C169ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0045E572-D6C0-4458-A566-91E90D04FDEA} = {D67B8527-4AC2-4C74-8987-70C0598119EF}
+		{6804D000-7621-42F8-B6D6-4304BDF70289} = {D67B8527-4AC2-4C74-8987-70C0598119EF}
+		{13786BEA-17BF-4555-A3E2-FAB0A55F3C99} = {D67B8527-4AC2-4C74-8987-70C0598119EF}
+		{8A7875CE-E8AB-4D94-86C6-4BD9A98557B3} = {D67B8527-4AC2-4C74-8987-70C0598119EF}
+		{A9038415-5B67-4060-A65D-3D721C169ABB} = {D67B8527-4AC2-4C74-8987-70C0598119EF}
+	EndGlobalSection
+EndGlobal

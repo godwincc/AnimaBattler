@@ -1,0 +1,30 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.DotSettings
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+.env.*
+
+# Data files
+data/
+*.csv
+!data/skills.csv
+
+# Docker volumes
+postgres-data/
+docker-data/
