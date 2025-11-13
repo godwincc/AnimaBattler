@@ -20,7 +20,7 @@ public sealed class ArchetypeEntity
     public int BaseSpeed { get; set; }
 
     /// <summary>Offensive scaling multiplier (1.0 = baseline).</summary>
-    public double DamageMult { get; set; }
+    public decimal DamageMult { get; set; }
 
     /// <summary>Defensive scaling multiplier (1.0 = baseline).</summary>
     public double DefenseMult { get; set; }

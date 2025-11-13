@@ -16,19 +16,19 @@ public static class ArchetypeSeeder
             new ArchetypeEntity {
                 Color = Color.Gray, Name = "Gray",
                 BaseHp = 85, BaseSpeed = 2,
-                DamageMult = 0.95, DefenseMult = 1.15,
+                DamageMult = 0.95M, DefenseMult = 1.15,
                 Description = "Tank/Support: block, mitigation, guard auras."
             },
             new ArchetypeEntity {
                 Color = Color.Green, Name = "Green",
                 BaseHp = 75, BaseSpeed = 5,
-                DamageMult = 1.00, DefenseMult = 1.00,
+                DamageMult = 1.00M, DefenseMult = 1.00,
                 Description = "Poison + Sustain + Growth; converts poison to burst."
             },
             new ArchetypeEntity {
                 Color = Color.Red, Name = "Red",
                 BaseHp = 70, BaseSpeed = 5,
-                DamageMult = 1.12, DefenseMult = 0.92,
+                DamageMult = 1.12M, DefenseMult = 0.92,
                 Description = "Aggression/Burst: high damage, lighter defense."
             },
         };

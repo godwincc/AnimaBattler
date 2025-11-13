@@ -64,6 +64,12 @@ try
     // 5) Default Animas (Gray/Red/Green) with random skills/parts if available
     await AnimaSeeder.SeedDefaultsAsync(db /*, cts.Token*/);
 
+    
+    // Link table must exist; ensure you added DbSet<AnimaSkillEntity> + migration
+    // If you had an old AnimaSeeder that created random animas, you can keep or remove it.
+    // We'll deterministically add (or upsert) our 3 starters here:
+    await AnimaStarterSeeder.SeedThreeStartersAsync(db);
+
     logger.LogInformation("✅ Seeding complete.");
 }
 catch (OperationCanceledException)
